@@ -22,14 +22,6 @@ will output N+1. Evaluat this defense on:
 1. A BadNet, B1, (“sunglasses backdoor”) on YouTube Face for which we have already
 told you what the backdoor looks like. That is, we give you the validation data, and
 also test data with examples of clean and backdoored inputs.
-1. Your repaired networks for X={2%,4%,10%}. The repaired networks will be evaluated
-using the evaluation script (eval.py) on this website https://github.com/csaw-hackml/
-CSAW-HackML-2020. Everything you need for this project is under the "lab3" directory.
-2. Please create and submit a link to a GitHub repo. with any/all code you have produced in
-this project along with a readme that tells us how to run your code.
-3. A short report (at most 2 pages) that includes a table with the accuracy on clean test data
-and the attack success rate (on backdoored test data) as a function of the fraction of
-channels pruned (X).
 
 I have received various test accuracies while testing on the clean datasets with the “pruned” version of the bad nets which were given from the 2020 hacks git repository. We have used the pruning technique to remove the affected layers in the given bad neural networks which changes the behavior for some particular output classes. Pruning is an important technique in deep learning which will also help in reducing the complexity in terms of the time and space complexity which mainly reduces the number of parameters because we will be dealing with so many parameters once it reaches the final layer of the neural network.
 Plot representing accuracy vs attack success rate for the validation dataset:
