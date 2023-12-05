@@ -43,6 +43,7 @@ Combined 2% drops model, the clean test data Classification accuracy: 95.9002338
 Combined 2% drops model, Attack Success Rate: 100.0
 Combined 4% drops model, the clean test data Classification accuracy: 94.77007014809041 Combined 4% drops model, Attack Success Rate: 99.98441153546376
 Combined 10% drops model, the clean test data Classification accuracy: 84.54403741231489 Combined 10% drops model, Attack Success Rate: 77.20966484801247
-Test Accuracies and attack rates for models combined:
-Performance of the GoodNet Model:
+
+To run the code: Go to the Lab_assignment.ipynb and run all the cells sequentially. You can access all the bad net models, data as well as the repaired net models in the following below Drive link:
+[Drive Link](https://drive.google.com/drive/folders/1sxI0e2QlYM1QeYfvaavBnXdBoHmQJl2u?usp=sharing)
   
