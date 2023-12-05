@@ -23,6 +23,9 @@ will output N+1. Evaluat this defense on:
 told you what the backdoor looks like. That is, we give you the validation data, and
 also test data with examples of clean and backdoored inputs.
 
+**To run the code:** Go to the Lab_assignment.ipynb and run all the cells sequentially. You can access all the bad net models, data as well as the repaired net models in the following below Drive link:
+[Drive Link](https://drive.google.com/drive/folders/1sxI0e2QlYM1QeYfvaavBnXdBoHmQJl2u?usp=sharing)
+
 I have received various test accuracies while testing on the clean datasets with the “pruned” version of the bad nets which were given from the 2020 hacks git repository. We have used the pruning technique to remove the affected layers in the given bad neural networks which changes the behavior for some particular output classes. Pruning is an important technique in deep learning which will also help in reducing the complexity in terms of the time and space complexity which mainly reduces the number of parameters because we will be dealing with so many parameters once it reaches the final layer of the neural network.
 Plot representing accuracy vs attack success rate for the validation dataset:
 The Attack Success rate when the accuracy drops at least 30% is 6.954.
@@ -36,6 +39,5 @@ Combined 2% drops model, Attack Success Rate: 100.0
 Combined 4% drops model, the clean test data Classification accuracy: 94.77007014809041 Combined 4% drops model, Attack Success Rate: 99.98441153546376
 Combined 10% drops model, the clean test data Classification accuracy: 84.54403741231489 Combined 10% drops model, Attack Success Rate: 77.20966484801247
 
-To run the code: Go to the Lab_assignment.ipynb and run all the cells sequentially. You can access all the bad net models, data as well as the repaired net models in the following below Drive link:
-[Drive Link](https://drive.google.com/drive/folders/1sxI0e2QlYM1QeYfvaavBnXdBoHmQJl2u?usp=sharing)
+
   
